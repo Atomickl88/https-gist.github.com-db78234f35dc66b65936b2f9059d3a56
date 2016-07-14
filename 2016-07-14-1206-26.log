@@ -1,0 +1,173 @@
+12:06:26: CLR host plugin strings not found, dynamically loading 4 strings
+12:06:26: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+12:06:26: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+12:06:26: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+12:06:26: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+12:06:27: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+12:06:27: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+12:06:28: CLRHost:: Could not find/load browser settings at location C:\Users\KyleL\AppData\Roaming\OBS\pluginData\browser.json
+12:06:28: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\KyleL\AppData\Roaming\OBS\pluginData\browser.json'.
+12:06:28: File name: 'C:\Users\KyleL\AppData\Roaming\OBS\pluginData\browser.json'
+12:06:28:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+12:06:28:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+12:06:28:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+12:06:28:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+12:06:29: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+12:06:32: Open Broadcaster Software v0.657b - 32bit (´・ω・｀)
+12:06:32: -------------------------------
+12:06:32: CPU Name: Intel(R) Pentium(R) CPU B960 @ 2.20GHz
+12:06:32: CPU Speed: 2195MHz
+12:06:32: Physical Memory:  4095MB Total, 4095MB Free
+12:06:32: stepping id: 7, model 42, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+12:06:32: monitor 1: pos={0, 0}, size={1600, 900}
+12:06:32: Windows Version: 10.0 Build 10586 (revision 0)
+12:06:32: Aero is Enabled
+12:06:32: -------------------------------
+12:06:32: OBS Modules:
+12:06:32: Base Address     Module
+12:06:32: 00990000         OBS.exe
+12:06:32: 5FCB0000         OBSApi.dll
+12:06:32: 6F640000         CLRHostPlugin.dll
+12:06:32: 648E0000         DShowPlugin.dll
+12:06:32: 5F7C0000         GraphicsCapture.dll
+12:06:32: 5F790000         NoiseGate.dll
+12:06:32: 6FE50000         PSVPlugin.dll
+12:06:32: 5F770000         scenesw.dll
+12:06:32: ------------------------------------------
+12:06:32: Adapter 1
+12:06:32:   Video Adapter: Intel(R) HD Graphics
+12:06:32:   Video Adapter Dedicated Video Memory: 134217728
+12:06:32:   Video Adapter Shared System Memory: 1711276032
+12:06:32:   Video Adapter Output 1: pos={0, 0}, size={1600, 900}, attached=true
+12:06:32: =====Stream Start: 2016-07-14, 12:06:32===============================================
+12:06:32:   Multithreaded optimizations: On
+12:06:32:   Base resolution: 1600x900
+12:06:32:   Output resolution: 1600x900
+12:06:32: ------------------------------------------
+12:06:32: Loading up D3D10 on Intel(R) HD Graphics (Adapter 1)...
+12:06:32: ------------------------------------------
+12:06:32: Audio Format: 48000 Hz
+12:06:32: ------------------------------------------
+12:06:32: Audio Channels: 2 Ch
+12:06:32: Playback device Default
+12:06:32: ------------------------------------------
+12:06:32: Using desktop audio input: Speakers (Realtek High Definition Audio)
+12:06:32: Global Audio time adjust: 0
+12:06:33: ------------------------------------------
+12:06:33: Using auxilary audio input: Microphone (Realtek High Definition Audio)
+12:06:33: Mic time offset: 0
+12:06:33: ------------------------------------------
+12:06:33: Audio Encoding: AAC
+12:06:33:     bitrate: 128
+12:06:33: Using Monitor Capture
+12:06:33: Scene buffering time set to 700
+12:06:33: ------------------------------------------
+12:06:33: Video Encoding: x264
+12:06:33:     fps: 30
+12:06:33:     width: 1600, height: 900
+12:06:33:     preset: veryfast
+12:06:33:     profile: high
+12:06:33:     keyint: 250
+12:06:33:     CBR: yes
+12:06:33:     CFR: yes
+12:06:33:     max bitrate: 1000
+12:06:33:     buffer size: 1000
+12:06:33: ------------------------------------------
+12:06:33: Total frames encoded: 0, total frames duplicated: 0 (0.00%)
+12:06:33: Total frames rendered: 1, number of late frames: 0 (0.00%) (it's okay for some frames to be late)
+12:06:33: 
+12:06:33: Profiler time results:
+12:06:33: 
+12:06:33: ==============================================================
+12:06:33: video thread frame - [100%] [avg time: 23.253 ms] [children: 91.6%] [unaccounted: 8.43%]
+12:06:33: | scene->Preprocess - [75.6%] [avg time: 17.579 ms]
+12:06:33: | GPU download and conversion - [16%] [avg time: 3.714 ms] [children: 15.9%] [unaccounted: 0.0387%]
+12:06:33: | | flush - [15.9%] [avg time: 3.705 ms]
+12:06:33: ==============================================================
+12:06:33: 
+12:06:33: 
+12:06:33: Profiler CPU results:
+12:06:33: 
+12:06:33: ==============================================================
+12:06:33: video thread frame - [cpu time: avg 15.625 ms, total 15.625 ms] [avg calls per frame: 1]
+12:06:33: | scene->Preprocess - [cpu time: avg 15.625 ms, total 15.625 ms] [avg calls per frame: 1]
+12:06:33: | GPU download and conversion - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:06:33: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:06:33: ==============================================================
+12:06:33: 
+12:06:33: =====Stream End: 2016-07-14, 12:06:33=================================================
+12:06:40: =====Stream Start: 2016-07-14, 12:06:40===============================================
+12:06:40:   Multithreaded optimizations: On
+12:06:40:   Base resolution: 1600x900
+12:06:40:   Output resolution: 1600x900
+12:06:40: ------------------------------------------
+12:06:40: Loading up D3D10 on Intel(R) HD Graphics (Adapter 1)...
+12:06:40: ------------------------------------------
+12:06:40: Audio Format: 48000 Hz
+12:06:40: ------------------------------------------
+12:06:40: Audio Channels: 2 Ch
+12:06:40: Playback device Default
+12:06:40: ------------------------------------------
+12:06:40: Using desktop audio input: Speakers (Realtek High Definition Audio)
+12:06:40: Global Audio time adjust: 0
+12:06:40: ------------------------------------------
+12:06:40: Using auxilary audio input: Microphone (Realtek High Definition Audio)
+12:06:40: Mic time offset: 0
+12:06:40: ------------------------------------------
+12:06:40: Audio Encoding: AAC
+12:06:40:     bitrate: 128
+12:06:40: Using Monitor Capture
+12:06:40: Scene buffering time set to 700
+12:06:40: ------------------------------------------
+12:06:40: Video Encoding: x264
+12:06:40:     fps: 30
+12:06:40:     width: 1600, height: 900
+12:06:40:     preset: veryfast
+12:06:40:     profile: high
+12:06:40:     keyint: 250
+12:06:40:     CBR: yes
+12:06:40:     CFR: yes
+12:06:40:     max bitrate: 1000
+12:06:40:     buffer size: 1000
+12:06:40: ------------------------------------------
+12:06:40: Using ReplayBuffer with a length of 1 seconds
+12:14:45: FlushBufferedVideo: Flushing 5 packets over 134 ms
+12:14:45: Total frames encoded: 11484, total frames duplicated: 5537 (48.21%)
+12:14:45: Number of frames skipped due to encoder lag: 5423 (47.22%)
+12:14:45: Total frames rendered: 6070, number of late frames: 54 (0.89%) (it's okay for some frames to be late)
+12:14:45: 
+12:14:45: Profiler time results:
+12:14:45: 
+12:14:45: ==============================================================
+12:14:45: video thread frame - [100%] [avg time: 1.811 ms] [children: 52.6%] [unaccounted: 47.4%]
+12:14:45: | scene->Preprocess - [18.2%] [avg time: 0.33 ms]
+12:14:45: | GPU download and conversion - [34.4%] [avg time: 0.623 ms] [children: 15.9%] [unaccounted: 18.5%]
+12:14:45: | | flush - [7.45%] [avg time: 0.135 ms]
+12:14:45: | | CopyResource - [7.9%] [avg time: 0.143 ms]
+12:14:45: | | conversion to 4:2:0 - [0.552%] [avg time: 0.01 ms]
+12:14:45: Convert444Thread - [100%] [avg time: 1.459 ms] [children: 98.8%] [unaccounted: 1.17%]
+12:14:45: | Convert444toNV12 - [98.8%] [avg time: 1.442 ms]
+12:14:45: encoder thread frame - [100%] [avg time: 26.785 ms] [children: 0.112%] [unaccounted: 99.9%]
+12:14:45: | sending stuff out - [0.112%] [avg time: 0.03 ms]
+12:14:45: ==============================================================
+12:14:45: 
+12:14:45: 
+12:14:45: Profiler CPU results:
+12:14:45: 
+12:14:45: ==============================================================
+12:14:45: video thread frame - [cpu time: avg 0.978 ms, total 5937.5 ms] [avg calls per frame: 1]
+12:14:45: | scene->Preprocess - [cpu time: avg 0.059 ms, total 359.375 ms] [avg calls per frame: 1]
+12:14:45: | GPU download and conversion - [cpu time: avg 0.154 ms, total 937.5 ms] [avg calls per frame: 1]
+12:14:45: | | flush - [cpu time: avg 0.043 ms, total 265.625 ms] [avg calls per frame: 1]
+12:14:45: | | CopyResource - [cpu time: avg 0.098 ms, total 593.75 ms] [avg calls per frame: 1]
+12:14:45: | | conversion to 4:2:0 - [cpu time: avg 0.002 ms, total 15.625 ms] [avg calls per frame: 1]
+12:14:45: Convert444Thread - [cpu time: avg 1.268 ms, total 7671.88 ms] [avg calls per frame: 1]
+12:14:45: | Convert444toNV12 - [cpu time: avg 1.266 ms, total 7656.25 ms] [avg calls per frame: 1]
+12:14:45: encoder thread frame - [cpu time: avg 2.823 ms, total 32406.3 ms] [avg calls per frame: 1]
+12:14:45: | sending stuff out - [cpu time: avg 0.025 ms, total 296.875 ms] [avg calls per frame: 1]
+12:14:45: ==============================================================
+12:14:45: 
+12:14:45: =====Stream End: 2016-07-14, 12:14:45=================================================
+12:14:47: CLR host plugin instance deleted; removing dynamically loaded localization strings
+12:14:47: Terminating 0x1d9c
+12:14:47: Terminating 0x2404
